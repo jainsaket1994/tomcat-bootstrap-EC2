@@ -26,7 +26,7 @@ sudo chmod g+x conf /opt/tomcat/conf
 
 
 sudo chmod 777 /etc/systemd/system/
-sudo cat << _EOF_>> /etc/systemd/system/tomcat.service
+sudo cat /etc/systemd/system/tomcat.service << _EOF_
 
 # Systemd unit file for tomcat
 [Unit]
